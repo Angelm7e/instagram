@@ -1,0 +1,198 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.bg-primary{
+    background-color: #fafafa;
+}
+.border{
+    border:1px solid rgb(214, 214, 214);
+}
+.bg-secondary{
+    background-color: white;
+}
+.navbar{
+    background-color: #ffffff;
+    border-bottom: 2px solid  rgb(214, 214, 214);
+    justify-content: space-between;
+    padding: 15px 200px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+.navbar div{
+    flex:1;
+}
+.navbar .search{
+    padding: 5px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.d-flex{
+    display: flex; 
+}
+.content{
+    padding: 15px 200px; 
+    gap: 10px;
+    margin-top: 80px;
+}
+.content .publications{
+   flex:2;  
+}
+
+.content .aside{
+   flex:1; 
+   height: auto;
+   position: relative;
+}
+.aside-content{
+    position: sticky; 
+    top: 90px;
+    background-color: white;
+    height: 400px;
+    margin-left: 10px;
+}
+
+.estados{
+    padding: 10px;
+    gap:20px; 
+    justify-content: space-between;
+}
+.user_txt{
+    font-size: 12px; 
+    margin-top: 3px;
+}
+.text-center{
+    text-align: center;
+}
+.mt{
+    margin-top: 10px;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #c72d8e;
+    background-image: url('../img/usuario.png');
+    background-size: cover;
+}
+.publicacion{
+     margin-bottom:30px
+}
+.user-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.user-bold{
+    font-weight: 600;
+    font-size: 15px;
+}
+.user-info{
+    align-items: center;
+    padding: 10px;
+}
+.btn-action{
+    right: 0;
+}
+.actions{
+    justify-content: space-around; 
+    padding: 20px;
+}
+.w-100{
+    width: 100%;
+}
+.txt-right{
+    text-align: right;
+}
+.icon{
+    margin-right: 10px;
+    font-size: 20px;
+    color:rgb(24, 24, 24);
+}
+.icon:hover{
+    color:rgb(117, 117, 117);
+    cursor: pointer;    
+}
+.publication-description{
+    margin: 5px 20px;
+}
+.add-comment{
+    width: 100%;
+    border:none;
+    border-top: 1px solid rgb(235, 235, 235);
+    padding: 15px 0px;
+}
+.btn-action{
+    text-align: right;
+    width: 100%;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+  border: 1px solid rgb(224, 224, 224);
+  width: 150px;
+  position: absolute;
+  display: none;
+ 
+}
+.dropdown-content button{
+    width: 100%;
+    background-color: white;
+    border: none;
+    text-align: left;
+    padding: 10px;
+}
+.dropdown-content button:hover{ 
+    background-color: rgb(236, 236, 236); 
+    cursor: pointer;  
+}
+
+.coment i{
+    font-size: 25px;
+    margin: 7px;
+    
+}
+.aside-content{
+    padding: 10px;
+}
+
+.user-aside{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    gap: 10px;
+}
+
+.user-img-aside{
+   
+    border-radius: 50%;
+}
+
+.user-aside-Nom{
+    margin-top: 10px;
+}
+.link-cambiar{
+    margin-left: 50px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(96, 98, 218);
+}
+.publicacion2{
+    margin-top: 15px;
+}
+
+.g-color{
+    color: rgb(194, 178, 178);
+}
+
+.sugerencias-aside{
+    margin-top: 25px;
+}
